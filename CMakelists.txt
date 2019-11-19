@@ -1,0 +1,14 @@
+# DO NOT MODIFY BEGIN
+CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
+INCLUDE(cmake/LanguageStandard.cmake)
+INCLUDE(cmake/Toolchain.cmake)
+# DO NOT MODIFY END
+PROJECT(TemplateProject) # TODO
+# DO NOT MODIFY BEGIN
+INCLUDE(cmake/BuildType.cmake)
+INCLUDE(cmake/Flags.cmake)
+INCLUDE(cmake/ProjectLibs.cmake)
+INCLUDE(cmake/Utils.cmake)
+# DO NOT MODIFY END
+
+ADD_SUBDIRECTORY(example)
